@@ -7,7 +7,7 @@ const skills = [
         description:
             "HTML ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt.",
         rating: 5,
-        imgURL: "HTML.svg",
+        imgURL: "portfolio/HTML.svg",
         imgALT: "HTML Logo"
     },
     {
