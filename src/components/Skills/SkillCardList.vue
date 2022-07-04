@@ -23,7 +23,7 @@ const skills = [
         description:
             "JavaScript is a scripting or programming language that allows you to implement complex features on web pages",
         rating: 3,
-        imgURL: "./JS.svg",
+        imgURL: "portfolio/assets/JS.svg",
         imgALT: "JavaScript Logo"
     },
     {
