@@ -13,6 +13,7 @@ import Sonstiges from './views/Sonstiges.vue'
 
 const routes = [
     { path: '/', component: Home },
+    { path: '/portfolio', redirect: '/' },
     { path: '/ausbildung', component: Ausbildung },
     { path: '/erfahrung', component: Erfahrung },
     { path: '/skills', component: Skills },
