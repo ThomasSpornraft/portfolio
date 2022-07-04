@@ -21,11 +21,11 @@ window.onscroll = () => {
         </div>
         <nav>
             <ul>
-                <router-link to="/">Home</router-link>
-                <router-link to="/ausbildung">Ausbildung</router-link>
-                <router-link to="/erfahrung">Erfahrung</router-link>
-                <router-link to="/skills">Skills</router-link>
-                <router-link to="/sonstiges">Sonstiges</router-link>
+                <router-link to="/portfolio">Home</router-link>
+                <router-link to="/portfolio/ausbildung">Ausbildung</router-link>
+                <router-link to="/portfolio/erfahrung">Erfahrung</router-link>
+                <router-link to="/portfolio/skills">Skills</router-link>
+                <router-link to="/portfolio/sonstiges">Sonstiges</router-link>
             </ul>
         </nav>
         <div class="settings">

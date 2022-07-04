@@ -15,7 +15,7 @@ const skills = [
         description:
             "Mit CSS werden Gestaltungsanweisungen erstellt, die vor allem zusammen mit den Auszeichnungssprachen HTML und XML (zum Beispiel bei SVG) eingesetzt werden",
         rating: 4,
-        imgURL: "/assets/CSS.svg",
+        imgURL: "/portfolio/CSS.svg",
         imgALT: "CSS Logo"
     },
     {
@@ -23,7 +23,7 @@ const skills = [
         description:
             "JavaScript is a scripting or programming language that allows you to implement complex features on web pages",
         rating: 3,
-        imgURL: "/assets/JS.svg",
+        imgURL: "/portfolio/JS.svg",
         imgALT: "JavaScript Logo"
     },
     {
@@ -31,7 +31,7 @@ const skills = [
         description:
             "Ein zugängliches, performantes und vielseitiges JavaScript Framework zum erstellen von User Interfaces im Web",
         rating: 4,
-        imgURL: "/src/assets/VUE.svg",
+        imgURL: "/portfolio/VUE.svg",
         imgALT: "Vue Js Logo"
     },
     {
@@ -39,7 +39,7 @@ const skills = [
         description:
             "Eine JavaScript Bibliothek zum erstellen von User Interfaces",
         rating: 3,
-        imgURL: "/src/assets/REACT.svg",
+        imgURL: "/portfolio/REACT.svg",
         imgALT: "React Logo"
     },
     {
@@ -47,7 +47,7 @@ const skills = [
         description:
             "Eine Entwicklungsplatform zum erstellen von Webanwendungen aufbauend auf TypeScript",
         rating: 3,
-        imgURL: "/src/assets/ANGULAR.svg",
+        imgURL: "/portfolio/ANGULAR.svg",
         imgALT: "Angular Logo"
     },
     {
@@ -55,7 +55,7 @@ const skills = [
         description:
             "Das am weitesten verbreitete Tabellenkaklulationsprogramm",
         rating: 5,
-        imgURL: "/src/assets/EXCEL.svg",
+        imgURL: "/portfolio/EXCEL.svg",
         imgALT: "Microsoft Excel Logo"
     },
     {
@@ -63,7 +63,7 @@ const skills = [
         description:
             "Power BI ist ein Geschäftsanalysedienst von Microsoft. Ziel ist es, interaktive Visualisierungen und Business-Intelligence-Funktionen mit einer Oberfläche bereitzustellen, die so einfach ist, dass Endbenutzer ihre eigenen Berichte und Dashboards erstellen können.",
         rating: 3,
-        imgURL: "/src/assets/POWER-BI.svg",
+        imgURL: "/portfolio/POWER-BI.svg",
         imgALT: "Angular Logo"
     },
     {
@@ -71,7 +71,7 @@ const skills = [
         description:
             "Python hat den Anspruch, einen gut lesbaren, knappen Programmierstil zu fördern. So werden beispielsweise Blöcke nicht durch geschweifte Klammern, sondern durch Einrückungen strukturiert.",
         rating: 5,
-        imgURL: "/src/assets/PYTHON.svg",
+        imgURL: "/portfolio/PYTHON.svg",
         imgALT: "Python Logo"
     },
     {
@@ -79,7 +79,7 @@ const skills = [
         description:
             "Git ist ein System zur Versionskontrolle",
         rating: 3,
-        imgURL: "/src/assets/GIT.svg",
+        imgURL: "/portfolio/GIT.svg",
         imgALT: "git Logo"
     },
     {
@@ -87,7 +87,7 @@ const skills = [
         description:
             "PostgreSQL ist ein Relationales Datenbanksystem. Es steht open source zur Verfügung",
         rating: 2,
-        imgURL: "/src/assets/POSGRESQL.svg",
+        imgURL: "/portfolio/POSGRESQL.svg",
         imgALT: "PosgreSQL Logo"
     },
 ];

@@ -12,12 +12,12 @@ import Sonstiges from './views/Sonstiges.vue'
 
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/portfolio', redirect: '/' },
-    { path: '/ausbildung', component: Ausbildung },
-    { path: '/erfahrung', component: Erfahrung },
-    { path: '/skills', component: Skills },
-    { path: '/sonstiges', component: Sonstiges },
+    { path: '/', redirect: '/portfolio' },
+    { path: '/portfolio', component: Home },
+    { path: '/portfolio/ausbildung', component: Ausbildung },
+    { path: '/portfolio/erfahrung', component: Erfahrung },
+    { path: '/portfolio/skills', component: Skills },
+    { path: '/portfolio/sonstiges', component: Sonstiges },
 ]
 
 const app = createApp(App)
