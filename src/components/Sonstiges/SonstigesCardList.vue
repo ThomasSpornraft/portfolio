@@ -5,35 +5,34 @@ const sonstiges = [
     {
         title: "Lesen",
         description:
-            "HTML ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis eos distinctio esse dolore adipisci harum suscipit repellendus explicabo, maiores sunt laudantium tenetur fugit rerum quae doloremque consequatur placeat officiis.",
         rating: 4,
         icon: "fa-solid fa-book-open"
     },
     {
         title: "Aktien",
         description:
-            "HTML ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis eos distinctio esse dolore adipisci harum suscipit repellendus explicabo, maiores sunt laudantium tenetur fugit rerum quae doloremque consequatur placeat officiis.",
         rating: 3,
         icon: "fa-solid fa-chart-line"
     },
     {
         title: "Krafttraining",
         description:
-            "HTML ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis eos distinctio esse dolore adipisci harum suscipit repellendus explicabo, maiores sunt laudantium tenetur fugit rerum quae doloremque consequatur placeat officiis.",
         rating: 3,
         icon: "fa-solid fa-dumbbell"
     },
     {
         title: "Coding",
         description:
-            "HTML ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis eos distinctio esse dolore adipisci harum suscipit repellendus explicabo, maiores sunt laudantium tenetur fugit rerum quae doloremque consequatur placeat officiis.",
         rating: 5,
         icon: "fa-solid fa-code"
     },
     {
         title: "Gaming",
-        description:
-            "HTML ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis eos distinctio esse dolore adipisci harum suscipit repellendus explicabo, maiores sunt laudantium tenetur fugit rerum quae doloremque consequatur placeat officiis.",
         rating: 3,
         icon: "fa-solid fa-gamepad"
     }
@@ -44,6 +43,7 @@ const sonstiges = [
 </script>
 
 <template>
+
     <div class="sonstigescard-container">
         <div class="sonstigescard-list">
             <SonstigesCard v-for="sonst in sonstiges" :title="sonst.title" :description="sonst.description"
