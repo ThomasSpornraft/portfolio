@@ -15,7 +15,7 @@ const skills = [
         description:
             "Mit CSS werden Gestaltungsanweisungen erstellt, die vor allem zusammen mit den Auszeichnungssprachen HTML und XML (zum Beispiel bei SVG) eingesetzt werden",
         rating: 4,
-        imgURL: "/src/assets/CSS.svg",
+        imgURL: "/assets/CSS.svg",
         imgALT: "CSS Logo"
     },
     {
@@ -23,7 +23,7 @@ const skills = [
         description:
             "JavaScript is a scripting or programming language that allows you to implement complex features on web pages",
         rating: 3,
-        imgURL: "/src/assets/JS.svg",
+        imgURL: "./JS.svg",
         imgALT: "JavaScript Logo"
     },
     {
