@@ -27,7 +27,7 @@
 
         </div>
         <div class="profileCrad-contact">
-            <i class="fa-brands fa-twitter"></i>
+            <a href="https://twitter.com/TSpornraft"><i class="fa-brands fa-twitter"></i></a>
             <i class="fa-brands fa-github"></i>
             <i class="fa-brands fa-discord"></i>
             <i class="fa-brands fa-linkedin"></i>
