@@ -26,7 +26,7 @@
             </p>
 
         </div>
-        <div class="profileCrad-contact">
+        <div class="profileCard-contact">
             <a href="https://twitter.com/TSpornraft"><i class="fa-brands fa-twitter"></i></a>
             <i class="fa-brands fa-github"></i>
             <i class="fa-brands fa-discord"></i>
@@ -122,20 +122,58 @@
     padding: 0px 55px;
 }
 
-.profileCard .profileCrad-contact {
+.profileCard .profileCard-contact {
     display: flex;
     gap: 20px;
     margin-top: 30px;
 }
 
-.profileCard .profileCrad-contact i {
+.profileCard .profileCard-contact i {
     font-size: 1.4em;
     color: #999;
 }
 
-.profileCard .profileCrad-contact i:hover {
+.profileCard .profileCard-contact i:hover {
     font-size: 1.45em;
     color: white;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 768px) {
+    .profileCard {
+        display: grid;
+        width: 100%;
+        max-width: 1000px;
+        min-width: 700px;
+        height: unset;
+        padding: 10px 20px;
+        grid-template-columns: 230px auto 30px;
+    }
+
+    .profileCard-title {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .profileCard-text {
+        grid-row: span 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+    .profileCard-text .subtitle {
+        display: block;
+        width: fit-content;
+    }
+
+    .profileCard-contact {
+        grid-row: span 2;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 </style>

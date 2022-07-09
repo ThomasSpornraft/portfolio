@@ -39,6 +39,9 @@ window.onscroll = () => {
                 </select>
             </div>
         </div>
+        <div class="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
 
@@ -117,5 +120,48 @@ nav ul a {
     border-radius: 4px;
     font-size: 1.1em;
     font-family: 'Anek Latin';
+}
+
+header .mobile-menu {
+    display: none;
+}
+
+/* ********************************************************************************* */
+/* Responsive Design */
+
+@media only screen and (max-width: 1000px) {
+    header .settings {
+        display: none;
+    }
+
+    header .mobile-menu {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        grid-column: 12;
+    }
+
+    header .mobile-menu i {
+        font-size: 1.3em;
+        border: 1px solid #555;
+        padding: 4px;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header nav {
+        display: none;
+    }
+
+    #header {
+        display: flex;
+        width: 100vw;
+        padding-left: 20px;
+        justify-content: space-between;
+
+    }
 }
 </style>

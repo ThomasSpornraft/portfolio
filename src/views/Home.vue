@@ -58,6 +58,7 @@ const zitate = [
 .home main {
     grid-column: 3 / span 8;
     display: flex;
+    flex-direction: row-reverse;
     gap: 35px;
     justify-content: center;
     padding: 10px;
@@ -150,4 +151,56 @@ main .main-right {
     height: 100%;
     align-items: center;
 }
+
+
+/* ********************************************************************************* */
+/* Responsive Design */
+
+@media only screen and (max-width: 1300px) {
+    .home {
+        align-items: center;
+    }
+
+    .home main {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        max-width: 1000px;
+        gap: 5px;
+        padding: unset;
+    }
+
+    .home main .main-left {
+        width: 100%;
+    }
+
+    .home main .main-left {
+        align-items: center;
+    }
+
+    .home main .main-left .main-left-content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .home main .main-left {
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .home main .main-left .main-left-content {
+
+        height: 100vh;
+    }
+
+    .home main .main-left .main-left-content .title {
+        padding: 10px;
+    }
+}
 </style>
+

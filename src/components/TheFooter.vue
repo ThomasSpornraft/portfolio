@@ -37,6 +37,7 @@ footer {
     gap: 30px;
     padding: 0px 20px;
     color: #888;
+    background-color: #222;
     box-shadow: -2px -4px 5px rgba(0, 0, 0, .4);
 
 }
@@ -62,5 +63,22 @@ footer {
 .used-tech ul li img {
     width: 15px;
     margin-right: 5px;
+}
+
+/* ********************************************************************************* */
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
 }
 </style>
